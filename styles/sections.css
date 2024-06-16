@@ -21,6 +21,12 @@
       position: absolute;
       bottom: 0;
       padding: 24;
+
+      &:has(.text-lg){ /*Se tem uma .text-lg aplica o padding*/
+        padding: 12; 
+      }
+
+
       h2{
         margin-top: 8px;
       }
